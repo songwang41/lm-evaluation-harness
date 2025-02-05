@@ -187,8 +187,8 @@ class NeMoLM(LM):
         **kwargs,
     ):
         try:
-            # from lightning.pytorch.trainer.trainer import Trainer ## this is for newest, 2.1, 24.12
-            from pytorch_lightning.trainer.trainer import Trainer   ## this is for old one, 24.09
+            from lightning.pytorch.trainer.trainer import Trainer ## this is for newest, 2.1, 24.12
+            # from pytorch_lightning.trainer.trainer import Trainer   ## this is for old one, 24.09
             from nemo.collections.nlp.modules.common.text_generation_utils import (
                 generate,
             )
@@ -234,7 +234,7 @@ class NeMoLM(LM):
             raise ValueError(
                 "A number of nodes greater than 1 is not supported yet. Please set num_nodes as 1."
             )
-
+        
         trainer = Trainer(
             strategy=NLPDDPStrategy(),
             devices=devices,
