@@ -1,0 +1,128 @@
+hf (pretrained=/share5/users/song.wang/tms_outputs/tulu_v3/nemo_sft_70b_seq16k_2e6_bs8/checkpoints/megatron_gpt_sft.nemo.hf_llama,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.2602|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.2602|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.1479|±  |0.0153|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.1479|±  |0.0153|
+
+
+hf (pretrained=/share5/users/song.wang/tms_outputs/tulu_v3/nemo_sft_8b_4k_16384_run1_seq4k/checkpoints/megatron_gpt_sft.nemo.hf/,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.2926|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.2914|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.1719|±  |0.0162|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.1701|±  |0.0162|
+
+
+2025-01-22:20:23:36,662 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/users/song.wang/tms_outputs/tulu_v3/nemo_sft_70b_seq16k_2e6_bs8/checkpoints/megatron_gpt_sft.nemo.hf_llama_tulu,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.2602|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.2602|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.1479|±  |0.0153|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.1479|±  |0.0153|
+
+
+############################################# 
+##  with chat_template 
+############################################
+hf (pretrained=/share5/projects/llm/models/weight/Llama-3.1-Tulu-3-8B-SFT,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.7998|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.7746|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.7209|±  |0.0193|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.6932|±  |0.0198|
+
+
+
+2025-01-22:22:19:18,547 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/users/song.wang/tms_outputs/tulu_v3/nemo_sft_8b_4k_16384_run1_seq4k/checkpoints/megatron_gpt_sft.nemo.hf/,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.2482|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.2458|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.1368|±  |0.0148|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.1368|±  |0.0148|
+
+
+
+2025-01-22:22:24:26,075 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/projects/llm/models/weight/Meta-Llama-3.1-8B-Instruct/,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.8525|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.8141|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.7948|±  |0.0174|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.7412|±  |0.0188|
+
+
+hf (pretrained=/share5/users/song.wang/tms_outputs/tulu_v3/nemo_sft_70b_seq16k_2e6_bs8/checkpoints/megatron_gpt_sft.nemo.hf_llama_tulu,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.2458|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.2374|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.1294|±  |0.0144|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.1220|±  |0.0141|
+
+
+2025-01-23:00:13:32,033 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/projects/llm/models/weight/Llama-3.1-Tulu-3-70B-SFT,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.8585|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.8345|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.7930|±  |0.0174|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.7597|±  |0.0184|
+
+
+
+bash ../eval.sh /share5/projects/llm/models/weight/Meta-Llama-3.1-70B-Instruct/  --apply_chat_template 
+# --num_fewshot 0 --batch_size 16 --limit 1000
+2025-01-23:00:54:02,388 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/projects/llm/models/weight/Meta-Llama-3.1-70B-Instruct/,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.6199|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.6139|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.4843|±  |0.0215|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.4769|±  |0.0215|
+
+
+
+bash ../eval.sh /share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-Tulu-3-8B-SFT
+lm_eval --model hf --tasks ifeval --model_args pretrained=/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-Tulu-3-8B-SFT,parallelize=True --batch_size 16 --apply_chat_template
+                                                                            
+2025-01-30:23:57:06,996 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-Tulu-3-8B-SFT,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.7998|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.7746|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.7209|±  |0.0193|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.6932|±  |0.0198|
+
+
+
+2025-01-31:19:17:57,767 ERROR    [instructions.py:178] Unable to detect language for text ****** due to No features in text.
+2025-01-31:19:18:01,621 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-Tulu-3-8B-SFT,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 16
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.3801|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.3537|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.3142|±  |0.0200|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.2791|±  |0.0193|
+
+
+2025-01-31:21:14:20,878 INFO     [evaluation_tracker.py:269] Output path not provided, skipping saving results aggregated
+hf (pretrained=/share5/users/song.wang/checkpoints/hf_checkpoints/Meta-Llama-3.1-8B-Instruct,parallelize=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|Tasks |Version|Filter|n-shot|        Metric         |   |Value |   |Stderr|
+|------|------:|------|-----:|-----------------------|---|-----:|---|------|
+|ifeval|      4|none  |     0|inst_level_loose_acc   |↑  |0.8621|±  |   N/A|
+|      |       |none  |     0|inst_level_strict_acc  |↑  |0.8225|±  |   N/A|
+|      |       |none  |     0|prompt_level_loose_acc |↑  |0.8041|±  |0.0171|
+|      |       |none  |     0|prompt_level_strict_acc|↑  |0.7505|±  |0.0186|

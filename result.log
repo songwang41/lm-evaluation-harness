@@ -1,0 +1,300 @@
+W0204 01:04:10.387000 3631 torch/distributed/run.py:793] 
+W0204 01:04:10.387000 3631 torch/distributed/run.py:793] *****************************************
+W0204 01:04:10.387000 3631 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0204 01:04:10.387000 3631 torch/distributed/run.py:793] *****************************************
+2025-02-04:01:04:14,023 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,040 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,120 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,121 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,125 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,125 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,128 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:14,156 INFO     [__main__.py:284] Verbosity set to INFO
+2025-02-04:01:04:35,473 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,473 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,473 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,473 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,473 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,474 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,474 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,476 WARNING  [__main__.py:317]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,477 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,478 INFO     [__main__.py:381] Selected Tasks: ['ifeval']
+2025-02-04:01:04:35,481 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,481 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,481 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,481 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,481 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,481 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,481 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,481 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,481 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,482 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,482 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,482 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,483 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,483 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:35,484 INFO     [evaluator.py:165] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2025-02-04:01:04:35,485 INFO     [evaluator.py:202] Initializing nemo_lm model, with arguments: {'path': '/share5/users/song.wang/checkpoints/hf_checkpoints/Llama-3.1-8B-template-inst.nemo_241201_run2', 'devices': 8}
+2025-02-04:01:04:38,972 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:38,986 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,636 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,637 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,647 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,647 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,651 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,652 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,654 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,656 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,659 INFO     [loader.py:98] Loading faiss with AVX512 support.
+2025-02-04:01:04:39,661 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,662 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,668 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,670 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,673 INFO     [loader.py:100] Successfully loaded faiss with AVX512 support.
+2025-02-04:01:04:39,952 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:39,952 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:39,952 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7f5454dc1fc0>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+[NeMo W 2025-02-04 01:04:40 nemo_logging:361] /usr/local/lib/python3.10/dist-packages/pyannote/core/notebook.py:134: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+      cm = get_cmap("Set1")
+    
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+2025-02-04:01:04:40,651 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,652 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,652 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7f5a4a47a260>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+2025-02-04:01:04:40,655 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,655 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,655 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7f278fe9f070>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7f1ee7eb6260>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7fa03ae42230>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7fb59de15990>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+2025-02-04:01:04:40,656 INFO     [nemo_lm.py:212] The number of data replicas for evaluation is 8.
+2025-02-04:01:04:40,656 INFO     [nemo_lm.py:215] The total number of devices is 8.
+2025-02-04:01:04:40,656 INFO     [nemo_lm.py:216] No tensor parallelism or pipeline parallelism is applied.
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7ff452f61960>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+Traceback (most recent call last):
+  File "/usr/local/bin/lm_eval", line 8, in <module>
+    sys.exit(cli_evaluate())
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/__main__.py", line 387, in cli_evaluate
+    results = evaluator.simple_evaluate(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/evaluator.py", line 205, in simple_evaluate
+    lm = lm_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 276, in create_from_arg_string
+    return cls(**args)
+  File "/share5/users/song.wang/projects/aic-eval/lm-evaluation-harness/lm_eval/models/nemo_lm.py", line 238, in __init__
+    trainer = Trainer(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPStrategy object at 0x7f473828a9e0>`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+W0204 01:04:42.338000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3697 closing signal SIGTERM
+W0204 01:04:42.338000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3698 closing signal SIGTERM
+W0204 01:04:42.339000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3699 closing signal SIGTERM
+W0204 01:04:42.340000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3700 closing signal SIGTERM
+W0204 01:04:42.341000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3701 closing signal SIGTERM
+W0204 01:04:42.341000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3703 closing signal SIGTERM
+W0204 01:04:42.342000 3631 torch/distributed/elastic/multiprocessing/api.py:890] Sending process 3704 closing signal SIGTERM
+E0204 01:04:42.695000 3631 torch/distributed/elastic/multiprocessing/api.py:862] failed (exitcode: 1) local_rank: 5 (pid: 3702) of binary: lm_eval
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==2.5.0a0+e000cf0ad9.nv24.10', 'console_scripts', 'torchrun')())
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+lm_eval FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-02-04_01:04:42
+  host      : scl-c32-r16-svr01
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3702)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

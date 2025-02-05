@@ -15,7 +15,7 @@
 import importlib
 import pathlib
 from copy import deepcopy
-from typing import List, Literal
+from typing import List, Literal, Dict
 
 import filelock
 import numpy as np
@@ -187,7 +187,8 @@ class NeMoLM(LM):
         **kwargs,
     ):
         try:
-            from lightning.pytorch.trainer.trainer import Trainer
+            # from lightning.pytorch.trainer.trainer import Trainer ## this is for newest, 2.1, 24.12
+            from pytorch_lightning.trainer.trainer import Trainer   ## this is for old one, 24.09
             from nemo.collections.nlp.modules.common.text_generation_utils import (
                 generate,
             )
@@ -461,7 +462,13 @@ class NeMoLM(LM):
                 # Trim at contlen since shorter contexts in a batch will have more than one token generated.
                 # Use ctxlen-1 instead of ctxlen same as for full_logprob in batch_greedy_tokens calculation
                 logprobs = (logprobs[ctxlen - 1 :])[:contlen]
-                logprob = sum(logprobs).tolist()
+                logprob = sum(logprobs)
+                if isinstance(logprob, torch.Tensor):
+                    logprob = logprob.tolist()
+                elif isinstance(logprob, (int, float)):
+                    logprob = [logprob]
+                else:
+                    raise NotImplementedError
 
                 continuation_tokens = (token_ids[ctxlen:])[:contlen]
                 len_diff = ctxlen - min_ctxlen
@@ -541,3 +548,27 @@ class NeMoLM(LM):
                 res.append(answer)
 
         return re_ords.get_original(res)
+    
+    @property
+    def tokenizer_name(self) -> str:
+        return self.tokenizer.name_or_path.replace("/", "__")
+    
+    def apply_chat_template(self, chat_history: List[Dict[str, str]]) -> str:
+        """
+        Method to apply a chat template to a list of chat history between user and model.
+        """
+        import jinja2
+        try:
+            chat_templated = self.tokenizer.tokenizer.apply_chat_template(
+                chat_history, tokenize=False, add_generation_prompt=True
+            )
+        except jinja2.exceptions.TemplateError:
+            eval_logger.warning(
+                "Failed to apply chat template. removing the system role in chat history."
+            )
+            chat_history = [msg for msg in chat_history if msg["role"] != "system"]
+            chat_templated = self.tokenizer.tokenizer.apply_chat_template(
+                chat_history, tokenize=False, add_generation_prompt=True
+            )
+
+        return chat_templated
